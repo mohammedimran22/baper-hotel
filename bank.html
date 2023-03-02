@@ -12,8 +12,39 @@
         <h1 class="text-center text-5xl mt-2.5 ">Let's get some <span class="text-fuchsia-500 font-semibold">moneyyyyyy</span>!!!</h1>
     </header>
  <main>
-
+    <section class="mt-12">
+        <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto text-white">
+            <div class="bg-green-400 p-8 rounded-xl">
+                <h3 class="text-2xl">Deposit</h3>
+                <h4  id="deposit-total" class="text-5xl">$00</h4>
+            </div>
+            <div class="bg-fuchsia-300 p-8 rounded-xl">
+                <h3 class="text-2xl">Withdrow</h3>
+                <h4 class="text-5xl">$00</h4>
+            </div>
+            <div class="bg-yellow-400 p-8 rounded-xl">
+                <h3 class="text-2xl">Balance</h3>
+                <h4 class="text-5xl">$2000</h4>
+            </div>
+        </div>
+    </section>
+    <section class="mt-12">
+        <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto">
+            <div class="bg-blue-500 p-8 rounded-xl">
+                <h3 class="text-2xl mb-4 text-white">Please Deposite</h3>
+                <h4 class="text-5xl text-white">$00</h4>
+                <input class="w-9/12 block mb-2 px-3" type="text" name="" id="deposit-field" placeholder="$ Amount you want to Deposite">
+            <button id="btn-deposit" class="text-lg font-bold rounded-md bg-rose-500 hover:bg-rose-700 px-8 py-2">Deposit</button>
+            </div>
+            <div class="bg-rose-800 p-8 rounded-xl">
+                <h3 class="text-2xl mb-4 text-white">Please Withdrow</h3>
+                <h4 class="text-5xl text-white">$00</h4>
+                <input class="w-9/12 block mb-2 px-3" type="text" name="" id="withdrow-field" placeholder="$ Amount you want to Withdrow">
+            <button id="btn-withdrow" class="text-lg font-bold rounded-md bg-rose-500 hover:bg-rose-700 px-8 py-2">Withdrow</button>
+            </div>
+        </div>
+    </section>
 </main>
-    
+<script src="js/deposit.js"></script>
 </body>
 </html>
